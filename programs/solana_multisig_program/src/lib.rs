@@ -1,9 +1,9 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Bn5XnfQeLWYgVFBe9SNmqagBkkLkikLk6vrQs94Viajb");
+declare_id!("<your_program_pubkey_in_base58>");
 
 #[program]
-pub mod first_project {
+pub mod solana_multisig_program {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
